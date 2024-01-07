@@ -6,8 +6,8 @@ const HEAD = (
       borderRadius: "100px",
       border: "10px solid black",
       position: "absolute",
-      top: "50px",
-      right: "-30px",
+      top: "60px",
+      right: "217px",
     }}
   />
 );
@@ -19,8 +19,8 @@ const BODY = (
       height: "100px",
       background: "black",
       position: "absolute",
-      top: "120px",
-      right: "0",
+      top: "130px",
+      right: "247px",
     }}
   />
 );
@@ -33,7 +33,7 @@ const RIGHT_ARM = (
       background: "black",
       position: "absolute",
       top: "150px",
-      right: "-100px",
+      right: "150px",
       rotate: "-30deg",
       transformOrigin: "left bottom",
     }}
@@ -48,7 +48,7 @@ const LEFT_ARM = (
       background: "black",
       position: "absolute",
       top: "150px",
-      right: "10px",
+      right: "250px",
       rotate: "30deg",
       transformOrigin: "right bottom",
     }}
@@ -62,8 +62,8 @@ const RIGHT_LEG = (
       height: "10px",
       background: "black",
       position: "absolute",
-      top: "210px",
-      right: "-90px",
+      top: "220px",
+      right: "156px",
       rotate: "60deg",
       transformOrigin: "left bottom",
     }}
@@ -77,8 +77,8 @@ const LEFT_LEG = (
       height: "10px",
       background: "black",
       position: "absolute",
-      top: "210px",
-      right: "0",
+      top: "220px",
+      right: "248px",
       rotate: "-60deg",
       transformOrigin: "right bottom",
     }}
@@ -93,7 +93,7 @@ type HangmanDrawingProps = {
 
 const HangmanDrawing = ({ numberOfGuesses }: HangmanDrawingProps) => {
   return (
-    <div style={{ position: "relative" }}>
+    <div style={{ position: "relative", width: "500px" }}>
       {BODY_PARTS.slice(0, numberOfGuesses)}
       <div
         style={{
@@ -101,14 +101,14 @@ const HangmanDrawing = ({ numberOfGuesses }: HangmanDrawingProps) => {
           width: "10px",
           background: "black",
           position: "absolute",
-          top: 0,
-          right: 0,
+          top: "10px",
+          right: "247px",
         }}
       />
       <div
         style={{
           height: "10px",
-          width: "200px",
+          width: "133px",
           background: "black",
           marginLeft: "120px",
         }}
