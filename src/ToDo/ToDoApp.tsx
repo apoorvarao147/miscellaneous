@@ -60,7 +60,7 @@ const Wrapper = styled.div`
 const ExtendedButton = styled(Button)`
   width: 230px;
   height: 40px;
-  margin: 2rem 0.9rem 2rem 2rem;
+  margin: 2rem 0.9rem 1rem 2rem;
   background-color: red;
 `;
 const SaveButton = styled(Button)`
@@ -71,13 +71,14 @@ const SaveButton = styled(Button)`
 const ViewListsButton = styled(Button)`
   width: 300px;
   height: 55px;
-  margin: 1.5rem 0 0 2rem;
+  margin: 1rem 0 0 2rem;
   background-color: rgb(246, 176, 18);
 `;
 const WrapperList = styled.div`
   width: 30%;
   border-bottom: 1px solid #ccc;
-  padding: 0 0 1rem 2rem;
+  margin: 0 0 1rem 2rem;
+  padding-bottom: 1rem;
 
   ul {
     width: 400px;
