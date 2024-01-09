@@ -216,7 +216,7 @@ const ToDoApp = () => {
 };
 
 const Lists = ({ savedLists, setSavedLists }) => {
-  const [view, setView] = useState(false);
+  const [view, setView] = useState(true);
 
   const viewLists = () => {
     setView(!view);
